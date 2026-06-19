@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlgoLearn - Support</title>
+    <style>
+        :root {
+            --bg-start: #0F172A;
+            --bg-end: #020617;
+            --card-bg: #111827;
+            --border: #1F2937;
+            --text-main: #E5E7EB;
+            --text-muted: #9CA3AF;
+            --accent: #38BDF8;
+        }
+        
+        body {
+            background: linear-gradient(180deg, var(--bg-start) 0%, var(--bg-end) 100%);
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 24px;
+            min-height: 100vh;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        header {
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: var(--accent);
+            font-size: 24px;
+            font-weight: 700;
+            margin: 0 0 8px 0;
+        }
+        
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin: 0;
+        }
+        
+        h2 {
+            color: var(--accent);
+            font-size: 18px;
+            font-weight: 600;
+            margin: 24px 0 12px 0;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 8px;
+        }
+        
+        p, li {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin: 0 0 12px 0;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin: 0 0 16px 0;
+        }
+        
+        .faq-item {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        
+        .faq-answer {
+            color: var(--text-muted);
+            margin: 0;
+            font-size: 14px;
+        }
+        
+        .contact-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 32px;
+        }
+        
+        .contact-card p {
+            margin-bottom: 16px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #020617;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: opacity 0.2s ease;
+        }
+        
+        .btn:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AlgoLearn Support</h1>
+        <p class="subtitle">We're here to help you master algorithms and data structures</p>
+    </header>
+
+    <h2>Frequently Asked Questions</h2>
+    
+    <div class="faq-item">
+        <div class="faq-question">How does spaced repetition work in AlgoLearn?</div>
+        <p class="faq-answer">AlgoLearn uses an interval-based spaced repetition system. When you review a card, you can rate your recall. Based on your rating, the app schedules the next review. Correct answers push the next review further out, while incorrect answers prompt more frequent reviews to reinforce your memory.</p>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">Are my notes and study progress saved securely?</div>
+        <p class="faq-answer">Yes, absolutely. All your study progress, customized notes, and session statistics are saved locally inside your device's secure sandbox. We do not store or transmit your data to any external server, ensuring complete privacy.</p>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What are Accelerated Intervals?</div>
+        <p class="faq-answer">Accelerated Intervals can be turned on in settings to schedule reviews at much shorter time intervals. This is ideal if you are cramming for a coding exam or an upcoming technical interview and need to review concepts quickly.</p>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How can I reset my learning progress?</div>
+        <p class="faq-answer">You can reset all your statistics and reviews by opening the Settings screen and selecting "Reset All Progress" under the Danger Zone section. Please note that this action cannot be undone.</p>
+    </div>
+
+    <div class="contact-card">
+        <h3>Still have questions?</h3>
+        <p>If you encounter any issues, need assistance, or want to suggest new algorithm patterns, feel free to reach out directly.</p>
+        <a href="mailto:alice.turcanu91@gmail.com?subject=AlgoLearn%20Support%20Request" class="btn">Email Alice Turcanu</a>
+    </div>
+</body>
+</html>
